@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/images/banner.png" alt="PicoW Room Controller — Smart Fujitsu IR Blaster with Apple HomeKit, TV Learning, and Light Control" width="100%"/>
+  <img src="docs/images/banner.png" alt="pico-w-room-controller — Smart Fujitsu IR Blaster with Apple HomeKit, TV Learning, and Light Control" width="100%"/>
 </p>
 
-<h1 align="center">❄️ PicoW-Room-Controller</h1>
+<h1 align="center">pico-w-room-controller</h1>
 
 <p align="center">
   <strong>Smart room controller powered by Raspberry Pi Pico W — Fujitsu AC (reverse-engineered IR), ceiling light control, TV remote learning, web dashboard, Apple HomeKit via Homebridge, and OTA firmware updates</strong>
@@ -16,8 +16,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/SafalFrom2050/PicoW-AC-Controller?style=flat-square&label=Last%20Commit" alt="Last Commit"/>
-  <img src="https://img.shields.io/github/repo-size/SafalFrom2050/PicoW-AC-Controller?style=flat-square&label=Repo%20Size" alt="Repo Size"/>
+  <img src="https://img.shields.io/github/last-commit/SafalFrom2050/pico-w-room-controller?style=flat-square&label=Last%20Commit" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/repo-size/SafalFrom2050/pico-w-room-controller?style=flat-square&label=Repo%20Size" alt="Repo Size"/>
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++ Language"/>
   <img src="https://img.shields.io/badge/IR-Reverse_Engineered-FF6F00?style=flat-square" alt="Reverse Engineered IR"/>
   <img src="https://img.shields.io/badge/Status-Working-brightgreen?style=flat-square" alt="Project Status Working"/>
@@ -28,7 +28,7 @@
 
 ## 📖 Overview
 
-**PicoW-Room-Controller** turns a **$6 Raspberry Pi Pico W** into a multi-device smart room controller. Originally built to control a **Fujitsu split-system air conditioner** via a **reverse-engineered 144-bit IR protocol**, the project has grown into a full room automation hub that also controls ceiling lights, learns TV remote codes, and serves a real-time web dashboard — all accessible through **Apple HomeKit** via Homebridge.
+**pico-w-room-controller** turns a **$6 Raspberry Pi Pico W** into a multi-device smart room controller. Originally built to control a **Fujitsu split-system air conditioner** via a **reverse-engineered 144-bit IR protocol**, the project has grown into a full room automation hub that also controls ceiling lights, learns TV remote codes, and serves a real-time web dashboard — all accessible through **Apple HomeKit** via Homebridge.
 
 ### ✨ What It Does
 
@@ -436,7 +436,7 @@ The project integrates with multiple Homebridge plugins to expose all devices to
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/SafalFrom2050/PicoW-AC-Controller.git
+git clone https://github.com/SafalFrom2050/pico-w-room-controller.git
 
 # 2. Open in Arduino IDE
 #    File → Open → PicoW-Room-Controller.ino
@@ -568,7 +568,7 @@ The firmware includes debug endpoints accessible via HTTP:
 ## 📁 Project Structure
 
 ```
-PicoW-Room-Controller/
+pico-w-room-controller/
 ├── PicoW-Room-Controller.ino  # Main firmware — WiFi, web server, IR engine, dashboard,
 │                               #   light control, TV learning, OTA updates (1600+ lines)
 ├── config.example.h            # Template configuration (copy to config.h)
